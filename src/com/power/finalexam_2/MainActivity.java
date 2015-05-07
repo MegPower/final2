@@ -46,10 +46,6 @@ public class MainActivity extends Activity {
 		
 		radioGroup1 = (RadioGroup) findViewById(R.id.radioGroup1);
 		radioGroup1.setOnCheckedChangeListener(new OnCheckedChangeListener() {
-				{
-				public void onCheckedChanged(RadioGroup group, int checkedId) {					
-				}}
-
 				@Override
 				public void onCheckedChanged(RadioGroup group, int checkedId) {
 					// TODO Auto-generated method stub
@@ -61,16 +57,10 @@ public class MainActivity extends Activity {
 		            	first = kel;
 		            }
 						
-				}});
+				}}});
 
-		
-		radioGroup2 = (RadioGroup) findViewById(R.id.radioGroup2);
+		radioGroup2 = (RadioGroup) void findViewById(R.id.radioGroup2);
 		radioGroup2.setOnCheckedChangeListener(new OnCheckedChangeListener() {
-			{
-			@Override
-				public void onCheckedChanged(RadioGroup group, int checkedId) {
-				}
-			}
 
 			@Override
 			public void onCheckedChanged(RadioGroup group, int checkedId) {
